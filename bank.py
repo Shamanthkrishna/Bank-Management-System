@@ -32,7 +32,7 @@ class Bank:
         transactionDoc = {
             "username": self.__username,
             "account_number": self.__account_number,
-            "timedate": datetime.utcnow(),
+            "timedate": datetime.now(),
             "remarks": remarks,
             "amount": amount,
             "balance": balance

@@ -67,12 +67,12 @@ def signIn():
                 
                 while True:
                     # Display options menu
-                    print("\nOptions:")
-                    print("1. Deposit")
-                    print("2. Withdraw")
-                    print("3. Transfer Money to another A/c")
+                    print(f"\nWelcome {username.capitalize()} Choose Your Banking Service")
+                    print("1. Cash Deposit")
+                    print("2. Cash Withdraw")
+                    print("3. Fund Transfer")
                     print("4. Check Account Details")
-                    print("5. View Transaction History")
+                    print("5. View Transaction History (ePassBook)")
                     print("Type 'exit' to Log out")
 
                     action = input("Choose an option: ")

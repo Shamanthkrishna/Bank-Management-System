@@ -2,15 +2,15 @@
 from register import *  # Import functions for user registration and login
 from admin import admin_login  # Import the admin login function
 
-print("Welcome to SKB Bank Project")  # Welcome message for the user
+print("\nWelcome to SKB Bank Project")  # Welcome message for the user
 
 while True:
     try:
         # Display menu options to the user
-        print("1. Sign Up\n"
-              "2. Sign In\n"
-              "3. Admin Login\n"
-              "4. Exit\n")
+        print("\n1. Sign Up\n"
+                "2. Sign In\n"
+                "3. Admin Login\n"
+                "4. Exit\n")
         choice = input("Choose an option: ")  # Prompt user to choose an option
 
         if choice == '1':
